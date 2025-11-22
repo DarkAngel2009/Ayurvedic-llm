@@ -1,0 +1,14 @@
+torch>=2.0.0
+transformers>=4.30.0
+sentencepiece
+bitsandbytes
+sentence-transformers>=2.2.0
+chromadb>=0.4.0
+langchain>=0.0.200
+flask>=2.3.0
+pandas>=1.5.0
+numpy>=1.24.0
+PyPDF2>=3.0.0
+python-dotenv>=1.0.0
+accelerate>=0.20.0
+bitsandbytes>=0.39.0
