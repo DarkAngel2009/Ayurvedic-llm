@@ -1,0 +1,41 @@
+Git-2.50.1-64-bit.exe
+# Environment
+ayur_llm_env/
+venv/
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model files
+*.pt
+*.pth
+*.bin
+*.h5
+*.ckpt
+*.safetensors
+*.onnx
+*.tflite
+*.model
+*.weights
+models/
+checkpoints/
+
+# Huggingface cache
+huggingface_cache/
+hf_cache/
+cache/
+
+# VSCode
+.vscode/
+
+# Logs
+*.log
+
+# Large accidental files
+Git-2.50.1-64-bit.exe
