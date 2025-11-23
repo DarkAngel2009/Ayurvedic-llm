@@ -1,26 +1,48 @@
-# Environment
-ayur_llm_env/
+# ------------------------------------
+# ENVIRONMENTS
+# ------------------------------------
 venv/
+ayur_llm_env/
 .env
 *.env
 
-# Python cache
+# ------------------------------------
+# PYTHON CACHE
+# ------------------------------------
 __pycache__/
 *.pyc
 
-# Jupyter
+# ------------------------------------
+# JUPYTER
+# ------------------------------------
 .ipynb_checkpoints/
 
-# Huggingface cache
+# ------------------------------------
+# HUGGINGFACE / OTHER CACHE
+# ------------------------------------
 huggingface_cache/
 hf_cache/
 cache/
 
-# VSCode
+# ------------------------------------
+# VSCODE
+# ------------------------------------
 .vscode/
 
-# Logs
+# ------------------------------------
+# LOG FILES
+# ------------------------------------
 *.log
 
-# Large accidental files
+# ------------------------------------
+# ACCIDENTAL LARGE FILES (EXE, etc.)
+# ------------------------------------
+Git/
 Git-2.50.1-64-bit.exe
+
+# ------------------------------------
+# MODELS
+# (NOT ignored — you want to keep them)
+# ------------------------------------
+#   ⚠️ DO NOT add *.pt, *.bin, or models/
+#   ⚠️ Models are allowed to sync to GitHub
